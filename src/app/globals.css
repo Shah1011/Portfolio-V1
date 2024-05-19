@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::selection {
+  color: #2a2a2a;
+  background: #5be6c9;
+}
+
+::-moz-selection {
+  color: #2a2a2a;
+  background: #5be6c9;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0a192f;
+  scroll-behavior: smooth;
+}
+
+@font-face{
+  font-family: 'pop';
+  src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1f293a; /* Set the background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00ffea45; /* Set the color of the thumb */
+  border-radius: 5px; /* Add rounded corners to the thumb */
+}
+
+.container {
+  margin-top: 8rem;
+}
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  color: #5be6c9;
+}
+
+.project {
+  padding: 8px;
+  background-color: '#112341';
+  border-radius: 0.25rem;
+  transition: transform 0.28s ease-in;
+}
+
+.project:hover {
+  transform: translateY(-3px);
+}
+
+.projectInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 3px;
+}
+
+.projectContent {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projectTitle {
+  color: '#ccd6f6';
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.projectTitle:hover {
+  color: '#5be6c9';
+}
+
+.projectDescription {
+  margin-top: 2px;
+  color: '#8893b1';
+  font-weight: medium;
+  font-size: 14px;
+}
+
+.projectTechnologies {
+  color: '#8893b1';
+  font-family: monospace;
+  font-size: 13px;
+  display: flex;
+  gap: 4px;
+}
+
+.bg-opacity-25 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--red);
+  transform-origin: 0%;
+}

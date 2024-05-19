@@ -1,0 +1,18 @@
+[
+    {
+        "projectname": "Flavia Theme",
+        "projectdesc": "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.",
+        "githubLink": "https://github.com/DanishQ1011/Flavia-Dark-Theme",
+        "externalLink": "https://flavia-theme.vercel.app",
+        "technologies": ["JavaScript", "ReactJs", "Tailwind CSS"],
+        "imageSrc": "/assets/flavia.png"
+    },
+    {
+        "projectname": "NIke Pseudo Site",
+        "projectdesc": "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.",
+        "githubLink": "https://github.com/DanishQ1011/nike-site",
+        "externalLink": "https://nike-sh.netlify.app/",
+        "technologies": ["JavaScript", "ReactJs", "Tailwind CSS"],
+        "imageSrc": "/assets/nike.png"
+    }
+]
