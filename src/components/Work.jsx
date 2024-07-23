@@ -248,7 +248,7 @@ const Work = () => {
               <h1 className='flex justify-start text-primary2 font-bold text-[28px]'>Memoria</h1>
             </a>
 
-            <a href='https://brainwave-shah.netlify.app' target='_blank' className='mt-4'>
+            <a href='https://memoria-public.vercel.app' target='_blank' className='mt-4'>
               <p className='text-primary3'>
               Memoria, is a web application where users can create, manage, and store personalized memory cards, each featuring images and stories. It uses Firebase for database management and storage, ensuring users can securely access their memories from any device.
               </p>

@@ -26,7 +26,7 @@ export default function Home() {
             <About />
           </section>
 
-          <section className="flex flex-col justify-center items-center mx-auto max-w-[1000px] min-h-screen mb-[4rem]">
+          <section className="flex flex-col justify-center items-center mx-auto max-w-[1000px] min-h-screen mb-[8rem] max-lg:mb-[4rem]">
             <Work />
           </section>
 
