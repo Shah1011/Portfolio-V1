@@ -1,7 +1,7 @@
 [
     {
         "name": "Crypto Commute",
-        "description": "A final year engineering project, It is a decentralized blockchain cab-booking platform that allows users to book cabs online. The project is built on web3 technologies like Alchemy, hardhat, web3.js on the ethereum platform.",
+        "description": "A final year engineering project, It is a decentralized blockchain cab-booking platform that allows users to book cabs online. Built on web3 technologies like Alchemy, hardhat, web3.js on the ethereum platform.",
         "technologies": ["JavaScript", "React", "Tailwind CSS"],
         "githubLink": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "externalLink": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
