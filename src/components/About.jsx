@@ -48,7 +48,7 @@ const About = () => {
       animate={controls}
       variants={animationVariants} 
       id='about' 
-      className='flex justify-center items-center max-sm:flex-col gap-[3rem]  px-[2rem]'>
+      className='flex justify-center items-center max-sm:flex-col gap-[3rem] max-sm:mb-[4rem] max-lg:px-[2rem]'>
       <div>
         
         <div className='flex items-center '>
@@ -80,15 +80,15 @@ const About = () => {
         </div>
       </div>
 
-      <div className="relative inline-block group">
+      <div className="relative inline-block group xl:mt-10">
             <Image
                 src={me}
                 alt="myimage"
-                width={1300}
-                height={1300}
+                width={1100}
+                height={1100}
                 className="max-sm:w-[280px] max-lg:right-2 relative z-10 block object-contain filter brightness-50 hover:brightness-100 rounded-md transform duration-300 ease-in-out"
             />
-            <span className="absolute max-lg:right-2 bottom-0 right-0 w-[17.5rem] h-[17.5rem] max-lg:w-[15rem] max-sm:h-[16.5rem] max-sm:w-[16.5rem] max-lg:h-[15rem] -mb-4 -mr-4 transition-all duration-300 ease-linear border-2 border-primary1 rounded-md group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-md"></span>
+            <span className="absolute max-lg:right-2 bottom-0 right-0 w-[19.5rem] h-[19.5rem] max-lg:w-[13rem] max-lg:h-[13rem] max-sm:h-[16.5rem] max-sm:w-[16.5rem] -mb-4 -mr-4 transition-all duration-300 ease-linear border-2 border-primary1 rounded-md group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-md"></span>
     
     </div>
 

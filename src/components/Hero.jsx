@@ -29,7 +29,7 @@ const AnimatedSection = ({ delay, children }) => (
 
 const Hero = () => {
   return (
-    <main className='flex justify-center items-center flex-col min-h-screen h-screen '>
+    <main className='flex justify-center items-center flex-col h-screen'>
       <div className='flex flex-col w-3/4'>
         <AnimatedSection delay={1.2}>
           <div className='text-primary1 text-[16px] font-mono font-medium mb-2'>
@@ -44,7 +44,7 @@ const Hero = () => {
               sequence={[
                 'I build things for the Web.',
                 2000,
-                'I am a blockchain enthusiast.',
+                'I am a web3 enthusiast.',
                 2000,
                 'And I like coffee ;)',
                 2000,

@@ -54,11 +54,11 @@ export default function MoreWork() {
       className='max-lg:mx-[3rem] max-sm:mx-auto max-sm:px-8'
     >
       <div>
-        <h1 className='text-primary2 text-center font-bold text-[26px]'>
+        <h1 className='text-primary2 text-center font-bold text-[26px] max-sm:text-[24px]'>
           Other Noteworthy projects
         </h1>
       </div>
-      <div className='mt-[3rem] grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-x-4 gap-y-5'>
+      <div className='mt-[2rem] grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-x-4 gap-y-5'>
         {projectsData.map((project, index) => (
           <motion.div
             key={index}

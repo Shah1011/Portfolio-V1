@@ -23,7 +23,7 @@ const Work = () => {
 
         <div className='flex items-center'>
           <p className='text-primary2 text-[28px] font-bold'>
-            <span className='font-mono font-extralight  text-primary1 max-sm:text-center'>02. </span>Some things I've built.
+            <span className='font-mono font-extralight text-[24px] text-primary1 max-sm:text-center'>02. </span>Some things I've built.
           </p>
             <div className="border-t border-gray-700 flex-grow ml-[2rem] "></div>
         </div>

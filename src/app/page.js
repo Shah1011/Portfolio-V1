@@ -22,15 +22,15 @@ export default function Home() {
             <Hero />
           </section>
 
-          <section ref={ref} className="flex justify-center items-center min-h-screen flex-col h-screen max-w-[900px] mx-auto">
+          <section ref={ref} className="flex flex-col justify-center items-center mx-auto max-w-[1000px] mb-[4rem] xl:mb-[10rem]">
             <About />
           </section>
 
-          <section className="max-sm:px-0 mx-auto max-w-[1000px] mt-[10rem]  min-h-screen max-lg:h-[110vh] max-sm:h-[170vh]">
+          <section className="flex flex-col justify-center items-center mx-auto max-w-[1000px] min-h-screen mb-[4rem]">
             <Work />
           </section>
 
-          <section className="flex flex-col justify-center items-center max-sm:px-0  xl:mt-[12rem] mx-auto max-w-[1000px] ">
+          <section className="flex flex-col justify-center items-center mx-auto max-w-[1000px] min-h-screen">
             <MoreWork />
           </section>
 
