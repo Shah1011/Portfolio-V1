@@ -88,7 +88,7 @@ const About = () => {
                 height={1100}
                 className="max-sm:w-[280px] max-lg:right-2 relative z-10 block object-contain filter brightness-50 hover:brightness-100 rounded-md transform duration-300 ease-in-out"
             />
-            <span className="absolute max-lg:right-2 bottom-0 right-0 w-[19.5rem] h-[19.5rem] max-lg:w-[13rem] max-lg:h-[13rem] max-sm:h-[16.5rem] max-sm:w-[16.5rem] -mb-4 -mr-4 transition-all duration-300 ease-linear border-2 border-primary1 rounded-md group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-md"></span>
+            <span className="absolute max-lg:right-2 bottom-0 right-0 w-[18rem] h-[18rem] max-lg:w-[13rem] max-lg:h-[13rem] max-sm:h-[16.5rem] max-sm:w-[16.5rem] -mb-4 -mr-4 transition-all duration-300 ease-linear border-2 border-primary1 rounded-md group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-md"></span>
     
     </div>
 

@@ -23,7 +23,7 @@ export default function MoreWork() {
         {projectsData.map((project, index) => (
           <motion.div
             key={index}
-            className='p-6 bg-gridcolor rounded-[5px] h-[320px] max-sm:h-[310px] max-sm:overflow-scroll overflow-hidden xl:hover:-translate-y-3 transition ease-in duration-280 flex flex-col justify-between'
+            className='p-6 bg-gridcolor rounded-[5px] h-[320px] overflow-hidden xl:hover:-translate-y-3 transition ease-in duration-280 flex flex-col justify-between'
             initial='hidden'
             transition={{ delay: index * 0.5 }}
           >
