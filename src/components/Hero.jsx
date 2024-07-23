@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
+import SpecialButton from './SpecialButton';
 
 const AnimatedSection = ({ delay, children }) => (
   <motion.div
@@ -68,23 +69,12 @@ const Hero = () => {
         </AnimatedSection>
 
         <AnimatedSection delay={2.1} >
-          <a
-            href='https://marketplace.visualstudio.com/items?itemName=ShahAbulKalam.flavia-dark'
-            target='_blank'
-            className='relative inline-block text-md group mt-[2rem]'
-          >
-            <span className='relative z-10 block px-7 py-5 overflow-hidden font-medium leading-tight text-primary1 transition-colors duration-300 ease-out border-[1px] border-primary1 rounded-lg group-hover:text-primary2'>
-              <span className='absolute inset-0 w-full h-full px-7 py-5 rounded-lg bg-[#0a192f]'></span>
-              <span
-                className='absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-[#0a192f] group-hover:-rotate-180 ease'
-              ></span>
-              <span className='relative'>Checkout my theme</span>
-            </span>
-            <span
-              className='absolute bottom-0 right-0 w-full h-[60px] -mb-1 -mr-1 transition-all duration-200 ease-linear bg-primary1 rounded-lg group-hover:mb-0 group-hover:mr-0'
-              data-rounded='rounded-lg'
-            ></span>
-          </a>
+            <SpecialButton
+              href="https://marketplace.visualstudio.com/items?itemName=ShahAbulKalam.flavia-dark" 
+              buttonText="Checkout my code theme!"
+              className="mt-[2rem]"
+              padding='px-4 py-5'
+            />
         </AnimatedSection>
       </div>
     </main>

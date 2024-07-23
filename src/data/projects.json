@@ -1,31 +1,31 @@
 [
     {
+        "name": "Crypto Commute",
+        "description": "A final year engineering project, It is a decentralized blockchain cab-booking platform that allows users to book cabs online. The project is built on web3 technologies like Alchemy, hardhat, web3.js on the ethereum platform.",
+        "technologies": ["JavaScript", "React", "Tailwind CSS"],
+        "githubLink": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "externalLink": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+        "name": "Brainwave",
+        "description": "For a hands-on learning experience in Tailwind CSS and mobile responsiveness, I built this mini project - Learnt from the popular YouTube channel JavaScript Mastery.",
+        "technologies": ["JavaScript", "React", "Tailwind CSS"],
+        "githubLink": "https://github.com/Shah1011/Brainwave",
+        "externalLink": "https://brainwave-shah.netlify.app"
+    },
+    {
       "name": "Pseudo Nike Website",
       "description": "This is a Simple Nike Web page clone that is responsive built using Reactjs. Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
       "technologies": ["JavaScript", "ReactJs", "Tailwind CSS"],
-      "githubLink": "https://github.com/DanishQ1011/Nike",
+      "githubLink": "https://github.com/Shah1011/Nike-Site-Cloned",
       "externalLink": "https://nike-sh.netlify.app/"
     },
     {
-        "name": "GPT-3 Modern-UI-UX-Webpage",
+        "name": "GPT-3 Webpage",
         "description": "This is a UI/UX Responsive web page built using Reactjs. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, adipisci?",
         "technologies": ["JavaScript", "React", "Tailwind CSS"],
-        "githubLink": "https://github.com/DanishQ1011/Modern-UI-UX-Webpage",
+        "githubLink": "https://github.com/Shah1011/Modern-UI-UX-Webpage-GPT3",
         "externalLink": "https://gpt3-shah.netlify.app/"
-    },
-    {
-        "name": "Modern-UI-UX-Webpage",
-        "description": "This is a UI/UX Responsive web page built using Reactjs. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, adipisci?",
-        "technologies": ["JavaScript", "React", "Tailwind CSS"],
-        "githubLink": "#",
-        "externalLink": "#"
-    },
-    {
-        "name": "Modern-UI-UX-Webpage",
-        "description": "This is a UI/UX Responsive web page built using Reactjs. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, adipisci?",
-        "technologies": ["JavaScript", "React", "Tailwind CSS"],
-        "githubLink": "#",
-        "externalLink": "#"
     },
     {
         "name": "Modern-UI-UX-Webpage",

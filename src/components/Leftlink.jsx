@@ -14,7 +14,7 @@ export default function LeftLink() {
   return (
     <section className='fixed bottom-0 left-[50px] flex flex-col items-center gap-6 '>
       <div className='flex flex-col gap-6 items-center'>
-        <a href="https://github.com/DanishQ1011" target='_blank' className='hover:text-primary1 hover:-translate-y-2 transition-transform duration-300 ease-in-out '>
+        <a href="https://github.com/Shah1011" target='_blank' className='hover:text-primary1 hover:-translate-y-2 transition-transform duration-300 ease-in-out '>
           <Image src={github} alt="GitHub Icon" />
         </a>
         <a href='https://twitter.com/Danishhh1011' target='_blank' className='hover:-translate-y-2 transition-transform duration-300 ease-in-out'>

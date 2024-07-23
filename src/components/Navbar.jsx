@@ -9,6 +9,7 @@ import pdfPath from '../../public/assets/Resume.pdf'
 import Image from 'next/image';
 import { motion, useAnimationControls } from 'framer-motion';
 import { enablePageScroll, disablePageScroll } from 'scroll-lock';
+import SpecialButton from './SpecialButton';
 
 
 const MotionDiv = ({ delay = 0, children }) => (
@@ -104,15 +105,11 @@ const closeMenu = () => {
     <>
     <nav className={`max-sm:px-[2rem] fixed backdrop-blur-md  w-full px-12 py-7 z-40 transition-shadow duration-300 ${scrollDown ? 'shadow-md' : 'shadow-none'}`} >
         <div className='max-md:hidden flex justify-between items-center'>
-            <a href='/' className="relative inline-block text-md group">            
-            <span className="relative z-10 max-sm:w-[20px] max-sm:h-[20px] block px-4 py-3 overflow-hidden font-medium leading-tight text-primary1 transition-colors duration-300 ease-out border-[1px] border-primary1 rounded-lg group-hover:text-primary2">
-                    <span className="absolute inset-0 w-full h-full px-4 py-3 rounded-lg bg-[#0a192f]"></span>
-                    <span className="absolute left-0 w-48 h-50 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-[#0a192f] group-hover:-rotate-180 ease"></span>
-                    <span className="relative font-semibold">S</span>
-                    </span>
-            <span className="absolute bottom-0 right-0 w-10 h-11 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-primary1 rounded-lg group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-lg"></span>
-            </a>
-
+            <SpecialButton
+                buttonText='S'
+                padding='px-4 py-3'
+                href='/'
+            />
             <div className='flex gap-10 items-center'>
                 <ol className='flex gap-10 text-primary2 text-sm font-mono font-light'>
                     <MotionDiv delay={0}>
@@ -129,14 +126,11 @@ const closeMenu = () => {
                 </ol>
 
                 <MotionDiv delay={0.7}>
-                    <a href={pdfPath} target='_blank' className="relative inline-block text-md group">
-                        <span className="relative z-10 block px-4 py-3 overflow-hidden font-medium leading-tight text-primary1 transition-colors duration-300 ease-out border-[1px] border-primary1 rounded-lg group-hover:text-primary2">
-                            <span className="absolute inset-0 w-full h-full px-4 py-3 rounded-lg bg-[#0a192f]"></span>
-                            <span className="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-[#0a192f] group-hover:-rotate-180 ease"></span>
-                            <span className="relative">Resume</span>
-                        </span>
-                        <span className="absolute bottom-0 right-0 w-full h-11 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-primary1 rounded-lg group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-lg"></span>
-                    </a>
+                    <SpecialButton
+                        href={pdfPath}
+                        buttonText="Resume"
+                        padding='px-4 py-3'
+                    />
                 </MotionDiv>
 
             </div>
