@@ -69,7 +69,7 @@ const yourEmail = 'shah.official1011@gmail.com'
               </a>
             </div>
           </div>
-            <p className='p-2 mt-7 text-primary1 text-center font-mono text-[12px]'>Built By Shah - 2024</p>
+            <p className='p-2 mt-7 text-primary1 text-center font-mono text-[11px]'>This site is hosted on AWS Amplify | Built By Shah - 2024</p>
         </div>
     </div>
     </motion.section>
