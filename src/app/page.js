@@ -10,10 +10,11 @@ import Contact from "@/components/Contact";
 import MoreWork from "@/components/MoreWork";
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
+import useScrollTrigger from '../hooks/useScrollTrigger';
 
 export default function Home() {
   const ref = useRef();
-
+  const { controls, animationVariants } = useScrollTrigger(0.4, 0.4);
   return (
     <>
       <main>
@@ -27,7 +28,13 @@ export default function Home() {
           </section>
 
           <section className="flex flex-col justify-center items-center mx-auto max-w-[1000px] min-h-screen mb-[8rem] max-lg:mb-[4rem]">
-            <Work />
+            <motion.div 
+              initial='hidden'
+              animate={controls}
+              variants={animationVariants}
+            >
+              <Work />
+            </motion.div>
           </section>
 
           <section className="flex flex-col justify-center items-center mx-auto max-w-[1000px] min-h-screen">
@@ -44,7 +51,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{
               ease: 'easeIn',
-              delay: 2.6
+              delay: 2.3
             }}
             className="max-lg:hidden"
           >

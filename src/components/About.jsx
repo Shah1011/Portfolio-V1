@@ -1,56 +1,22 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import me from '../../public/assets/me.jpg';
 import Image from 'next/image';
-import { motion, useAnimation } from 'framer-motion';
+import { motion } from 'framer-motion';
+import useScrollTrigger from '../hooks/useScrollTrigger'; // Adjust path as needed
 
 const About = () => {
-  const controls = useAnimation();
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const element = document.getElementById('about');
-      if (element) {
-        const offset = window.scrollY + window.innerHeight;
-        const elementOffset = element.offsetTop;
-        if (offset > elementOffset) {
-          controls.start('visible', {once: true});
-        }
-      }
-  };
-
-  window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [controls]);
-
-  const animationVariants = {
-    hidden: {
-      translateY: 10,
-      opacity: 0,
-    },
-    visible: {
-      translateY: 0,
-      opacity: 1,
-      transition: {
-        ease: 'easeIn',
-        duration: 1,
-      },
-    },
-  };
+  const { controls, animationVariants } = useScrollTrigger(0.4, 0);
 
   return (
     <motion.section       
       initial='hidden'
       animate={controls}
       variants={animationVariants} 
-      id='about' 
+      id='scroll-trigger' 
       className='flex justify-center items-center max-sm:flex-col gap-[3rem] max-sm:mb-[4rem] max-lg:px-[2rem]'>
       <div>
-        
         <div className='flex items-center '>
           <p className='text-primary2 text-[28px] font-bold'>
             <span className='font-mono font-extralight text-[24px] text-primary1'>01. </span>About me
