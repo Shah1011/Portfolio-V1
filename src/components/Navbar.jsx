@@ -129,7 +129,8 @@ const closeMenu = () => {
                     <SpecialButton
                         href={pdfPath}
                         buttonText="Resume"
-                        padding='px-4 py-3'
+                        padding='px-3.5 py-2.5'
+                        className="text-[14px]"
                     />
                 </MotionDiv>
 

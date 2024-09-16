@@ -22,7 +22,7 @@
     },
     {
       "name": "Pseudo Nike Website",
-      "description": "A Nike landing page clone created with React.js and Tailwind CSS. This project features minimalist design, and responsive layouts across devices. It showcases skills in replicating layouts and styling with a smooth user experience.",
+      "description": "A Nike landing page clone built with React.js and Tailwind CSS, featuring minimalist design and responsive layouts. It highlights skills in layout replication and styling for a smooth user experience.",
       "technologies": ["JavaScript", "ReactJs", "Tailwind CSS"],
       "githubLink": "https://github.com/Shah1011/Nike-Site-Cloned",
       "externalLink": "https://nike-sh.netlify.app/"
