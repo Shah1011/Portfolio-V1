@@ -127,7 +127,7 @@ const closeMenu = () => {
 
                 <MotionDiv delay={0.7}>
                     <SpecialButton
-                        href={pdfPath}
+                        href="https://drive.google.com/file/d/1xUtb2KdQJnRLNPGdClR4bfOYGkRhiAXS/view?usp=sharing"
                         buttonText="Resume"
                         padding='px-3.5 py-2.5'
                         className="text-[14px]"
