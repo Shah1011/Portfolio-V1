@@ -3,8 +3,8 @@
         "name": "Crypto Commute",
         "description": "A final year engineering project, It is a decentralized blockchain cab-booking platform that allows users to book cabs online. Built on web3 technologies like Alchemy, hardhat, web3.js on the ethereum platform.",
         "technologies": ["MERN Stack", "Web3", "Solidity"],
-        "githubLink": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-        "externalLink": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        "githubLink": "https://github.com/Shah1011/CryptoCommute",
+        "externalLink": "https://iamshah.hashnode.dev/crypto-commute"
     },
     {
         "name": "Fintech Leonidas",
