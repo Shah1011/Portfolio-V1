@@ -166,20 +166,20 @@ const closeMenu = () => {
                 exit="exit"
                 className="mx-auto h-full flex justify-end transition-transform duration-300 ease-out transform"
             >
-            <div className="bg-gridcolor min-h-screen w-3/4 h-full px-8 transform translate-x-0 transition-transform duration-3000 ease-out">
+            <div className="bg-gridcolor min-h-screen w-[70%] h-full px-8 transform translate-x-0 transition-transform duration-3000 ease-out">
             <div className="flex justify-end">
                 <button onClick={closeMenu} className="mt-10 px-3 py-2">
                     <Image src={close} alt="close" className='w-[26px] h-[26px]'/>
                 </button>
             </div>                
 
-            <ol className='mt-10 flex flex-col items-center gap-10 text-primary2 text-sm font-mono font-light'>
+            <ol className='mt-10 flex flex-col items-start gap-10 text-primary2 text-sm font-mono font-light'>
                     <Link href="#about"><li className='hover:text-primary1'><span className='text-primary1'>01. </span>About</li></Link>
                     <Link href="#work"><li className='hover:text-primary1'><span className='text-primary1'>02. </span>Work</li></Link>
                     <Link href="#blog"><li className='hover:text-primary1'><span className='text-primary1'>03. </span>Blog Writings</li></Link>
                     <Link href="#contact"><li className='hover:text-primary1'><span className='text-primary1'>04. </span>Contact</li></Link>
             </ol>
-            <div className='flex items-center justify-center'>
+            <div className='flex items-start '>
                 <a href={pdfPath} target='_blank' className="mt-10 relative inline-block text-md group">
                     <span className="relative z-10 block px-4 py-3 overflow-hidden font-medium leading-tight text-primary1 transition-colors duration-300 ease-out border-[1px] border-primary1 rounded-lg group-hover:text-primary2">
                         <span className="absolute inset-0 w-full h-full px-4 py-3 rounded-lg bg-[#0a192f]"></span>
