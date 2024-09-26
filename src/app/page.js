@@ -11,6 +11,7 @@ import MoreWork from "@/components/MoreWork";
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import useScrollTrigger from '../hooks/useScrollTrigger';
+import Blog from "@/components/Blog";
 
 export default function Home() {
   const ref = useRef();
@@ -23,22 +24,26 @@ export default function Home() {
             <Hero />
           </section>
 
-          <section ref={ref} className="flex flex-col justify-center items-center mx-auto max-w-[1000px] mb-[4rem] xl:mb-[10rem]">
+          <section ref={ref} className="flex flex-col justify-center items-center mx-auto max-w-[1000px]">
             <About />
           </section>
 
           <section className="flex flex-col justify-center items-center mx-auto max-w-[1000px] min-h-screen mb-[8rem] max-lg:mb-[4rem]">
-            <motion.div 
+            {/* <motion.div 
               initial='hidden'
               animate={controls}
               variants={animationVariants}
-            >
+            > */}
               <Work />
-            </motion.div>
+            {/* </motion.div> */}
           </section>
 
           <section className="flex flex-col justify-center items-center mx-auto max-w-[1000px] min-h-screen">
             <MoreWork />
+          </section>
+
+          <section className="flex flex-col justify-center items-center mx-auto max-w-[1000px] my-[5.5em]">
+            <Blog/>
           </section>
 
           <section className="flex flex-col justify-center items-center">

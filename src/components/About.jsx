@@ -7,16 +7,16 @@ import { motion } from 'framer-motion';
 import useScrollTrigger from '../hooks/useScrollTrigger'; // Adjust path as needed
 
 const About = () => {
-  const { controls, animationVariants } = useScrollTrigger(0.4, 0);
+  const { controls, animationVariants } = useScrollTrigger(0.2, 0);
 
   return (
     <motion.section       
       initial='hidden'
       animate={controls}
       variants={animationVariants} 
-      id='scroll-trigger' 
-      className='flex justify-center items-center max-sm:flex-col gap-[3rem] max-sm:mb-[4rem] max-lg:px-[2rem]'>
-      <div>
+      id='about' 
+      className='flex justify-center items-center max-sm:flex-col gap-[3rem] max-sm:mb-[10rem] max-lg:px-[2rem] scroll-mt-2 h-screen'>
+      <div id='scroll-trigger'>
         <div className='flex items-center '>
           <p className='text-primary2 text-[28px] font-bold'>
             <span className='font-mono font-extralight text-[24px] text-primary1'>01. </span>About me
@@ -56,7 +56,7 @@ const About = () => {
             />
             <span className="absolute max-lg:right-2 bottom-0 right-0 w-[18.5rem] h-[18.5rem] max-lg:w-[13rem] max-lg:h-[13rem] max-sm:h-[16.5rem] max-sm:w-[16.5rem] -mb-4 -mr-4 transition-all duration-300 ease-linear border-2 border-primary1 rounded-md group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-md"></span>
     
-    </div>
+      </div>
 
     </motion.section>
   );

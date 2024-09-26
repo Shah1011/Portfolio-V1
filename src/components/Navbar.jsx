@@ -100,7 +100,6 @@ const closeMenu = () => {
     enablePageScroll;
   };
 
-
   return (
     <>
     <nav className={`max-sm:px-[2rem] fixed backdrop-blur-md  w-full px-12 py-7 z-40 transition-shadow duration-300 ${scrollDown ? 'shadow-md' : 'shadow-none'}`} >
@@ -116,16 +115,20 @@ const closeMenu = () => {
                         <Link href="#about"><li className='hover:text-primary1'><span className='text-primary1'>01. </span>About</li></Link>
                     </MotionDiv>
 
-                    <MotionDiv delay={0.2}>
+                    <MotionDiv delay={0.1}>
                         <Link href="#work"><li className='hover:text-primary1'><span className='text-primary1'>02. </span>Work</li></Link>
                     </MotionDiv>
 
-                    <MotionDiv delay={0.4}>
-                        <Link href="#contact"><li className='hover:text-primary1'><span className='text-primary1'>03. </span>Contact</li></Link>
+                    <MotionDiv delay={0.2}>
+                        <Link href="#blog"><li className='hover:text-primary1'><span className='text-primary1'>03. </span>Blog</li></Link>
+                    </MotionDiv>
+
+                    <MotionDiv delay={0.3}>
+                        <Link href="#contact"><li className='hover:text-primary1'><span className='text-primary1'>04. </span>Contact</li></Link>
                     </MotionDiv>
                 </ol>
 
-                <MotionDiv delay={0.7}>
+                <MotionDiv delay={0.5}>
                     <SpecialButton
                         href="https://drive.google.com/file/d/152tF-c-1d_pfSy-OOCF2DXIfo8h1fPp_/view?usp=sharing"
                         buttonText="Resume"
@@ -173,7 +176,8 @@ const closeMenu = () => {
             <ol className='mt-10 flex flex-col items-center gap-10 text-primary2 text-sm font-mono font-light'>
                     <Link href="#about"><li className='hover:text-primary1'><span className='text-primary1'>01. </span>About</li></Link>
                     <Link href="#work"><li className='hover:text-primary1'><span className='text-primary1'>02. </span>Work</li></Link>
-                    <Link href="#contact"><li className='hover:text-primary1'><span className='text-primary1'>03. </span>Contact</li></Link>
+                    <Link href="#blog"><li className='hover:text-primary1'><span className='text-primary1'>03. </span>Blog Writings</li></Link>
+                    <Link href="#contact"><li className='hover:text-primary1'><span className='text-primary1'>04. </span>Contact</li></Link>
             </ol>
             <div className='flex items-center justify-center'>
                 <a href={pdfPath} target='_blank' className="mt-10 relative inline-block text-md group">

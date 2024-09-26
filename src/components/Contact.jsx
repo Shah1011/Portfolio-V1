@@ -33,11 +33,11 @@ const yourEmail = 'shah.official1011@gmail.com'
       // animate={controls}
       // variants={animationVariants} 
       id='contact' 
-      className='mt-[14rem] max-sm:mt-[10rem] p-4'>
+      className='p-4'>
 
-    <div className='flex flex-col justify-center items-center '>
+    <div className='flex flex-col justify-center items-center max-sm:mt-[4rem]'>
         <div className='flex flex-col items-center'>
-            <p className='font-mono text-[20px] text-primary1 max-sm:text-[18px]'>03. What's Next?</p>
+            <p className='font-mono text-[20px] text-primary1 max-sm:text-[18px]'>04. What's Next?</p>
             <h1 className='text-primary2 text-[48px] font-bold max-sm:text-[36px]'>Get In Touch</h1>
             <p className='mt-3 text-primary3 text-[18px] text-center w-[62%] max-sm:w-[90%] max-sm:text-[16px]'>I am currently open for new opportunities, Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
             <div className='mt-[3rem]'>
@@ -69,7 +69,7 @@ const yourEmail = 'shah.official1011@gmail.com'
               </a>
             </div>
           </div>
-            <p className='p-2 mt-7 text-primary1 text-center font-mono text-[11px]'>This site is hosted on AWS Amplify | Built By Shah - 2024</p>
+            <p className='p-2 mt-7 text-primary1 text-center font-mono text-[11px]'>Hosted on AWS Amplify | Built By Shah - 2024</p>
         </div>
     </div>
     </motion.section>

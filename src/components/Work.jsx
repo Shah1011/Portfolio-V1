@@ -16,8 +16,8 @@ const Work = () => {
     <>
     {/* //DESKTOP AND TABLET DEVICE VIEW */}
 
-    <motion.section 
-      initial='hidden'
+    <section 
+      // initial='hidden'
       id='work' 
       className='max-lg:hidden'>
 
@@ -25,7 +25,7 @@ const Work = () => {
           <p className='text-primary2 text-[28px] font-bold'>
             <span className='font-mono font-extralight text-[24px] text-primary1 max-sm:text-center'>02. </span>Some things I've built.
           </p>
-            <div className="border-t border-gray-700 flex-grow ml-[2rem] "></div>
+            <div className="border-t border-gray-700 flex-grow ml-[2rem]"></div>
         </div>
 
       <div className='mt-[5rem] relative'>
@@ -149,7 +149,7 @@ const Work = () => {
         </div>
       </div>
       
-</motion.section>
+</section>
 
 
     {/* //MOBILE DEVICE VIEW */}

@@ -29,15 +29,15 @@ const AnimatedSection = ({ delay, children }) => (
 
 const Hero = () => {
   return (
-    <main className='flex justify-center items-center flex-col h-screen'>
+    <main className='flex justify-center items-center flex-col h-screen mb-[-10rem] max-sm:mb-[1.2rem]'>
       <div className='flex flex-col w-3/4'>
-        <AnimatedSection delay={1.2}>
+        <AnimatedSection delay={1.1}>
           <div className='text-primary1 text-[16px] font-mono font-medium mb-2'>
             <h1>Hi, My name is</h1>
           </div>
         </AnimatedSection>
 
-        <AnimatedSection delay={1.4}>
+        <AnimatedSection delay={1.2}>
           <div className='text-primary2 font-pop font-[650] text-[62px] leading-snug max-lg:text-[52px] max-sm:text-[32px]'>
             <h1>Shah Abul Kalam.</h1>
             <TypeAnimation
@@ -57,7 +57,7 @@ const Hero = () => {
           </div>
         </AnimatedSection>
 
-        <AnimatedSection delay={1.6}>
+        <AnimatedSection delay={1.4}>
           <p className='text-primary3 w-[33rem] max-sm:w-[17rem] font-normal text-[16px] mt-6 max-sm:mt-2 max-sm:text-[18px]'>
             I am a computer science engineering student, specializing in building digital experiences (and occasionally designing).
             Currently interning and working on freelance projects at{' '}
@@ -68,7 +68,7 @@ const Hero = () => {
           </p>
         </AnimatedSection>
 
-        <AnimatedSection delay={1.8} >
+        <AnimatedSection delay={1.6} >
             <SpecialButton
               href="https://marketplace.visualstudio.com/items?itemName=ShahAbulKalam.flavia-dark" 
               buttonText="Checkout my code theme!"
