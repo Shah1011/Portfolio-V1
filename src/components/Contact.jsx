@@ -4,7 +4,7 @@ import github  from './icons/github.svg';
 import linkedin from './icons/linkedin.svg';
 import instagram from './icons/instagram.svg';
 import twitter from './icons/twitter.svg';
-import facebook from './icons/facebook.svg';
+import hashnode from './icons/hashnode.svg'
 import Image from 'next/image';
 import { motion, useAnimation } from 'framer-motion'; 
 import SpecialButton from './SpecialButton';
@@ -58,11 +58,11 @@ const yourEmail = 'shah.official1011@gmail.com'
               <a href='https://www.instagram.com/danishhh1011/' target='_blank'>
                   <Image src={instagram} alt='Instagram Icon'/>
               </a>
-              <a href='https://www.linkedin.com/in/shah-abul-kalam-a-k-90a52324a/' target='_blank'>
+              <a href='https://www.linkedin.com/in/shah-abul-kalam-a-k/' target='_blank'>
                   <Image src={linkedin} alt='linkedin'/>
               </a>
-              <a>
-                  <Image src={facebook} alt='facebook'/>
+              <a href='https://iamshah.hashnode.dev/' target='_blank'>
+                  <Image src={hashnode} alt='facebook'/>
               </a>
               <a href='https://twitter.com/Danishhh1011' target='_blank'>
                   <Image src={twitter} alt='Twitter Icon'/>
