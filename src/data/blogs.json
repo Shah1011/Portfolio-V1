@@ -1,14 +1,14 @@
 [
     {
-       "name":"Tech Roast Show Bangalore 2024🔥",
-       "image": "https://i.ibb.co/dfp18p0/Socially-inept.png" ,
-       "link": "https://iamshah.hashnode.dev/tech-roast-show-bangalore-2024",
-       "desc": "The event is taking place in Bangalore, Mumbai and Pune during the third week of October. Got myself a ticket on 19th October. I‘ve been following these guys since so long on Instagram🥹. It’s gonna be fun to attend the show hehe, while everyone buyi.."
-    },
+       "name":"Docker for Dummies",
+       "image": "https://i.ibb.co/S5Pf67z/docker-for-dummies.png" ,
+       "link": "https://iamshah.hashnode.dev/docker-for-dummies",
+       "desc": "This blog will help you understand Docker concepts in detail, along with its useful commands. It's not just an overview but a beginner's guide on how to use Docker. To put it in simple words - Docker is a tool that lets you bundle an application along with everything it needs to run..."
+    },          
     {
-        "name":"My CS50 Learning Experience ✨",
-        "image": "https://i.ibb.co/6tXJ4Ny/cs50-1.png" ,
-        "link": "https://iamshah.hashnode.dev/my-cs50-learning-experience"
+        "name":"Nginx Explained",
+        "image": "https://i.ibb.co/9qg2gSY/NGINX.png" ,
+        "link": "https://iamshah.hashnode.dev/nginx-explained"
         
     },
     {
