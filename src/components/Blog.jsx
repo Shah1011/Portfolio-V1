@@ -38,7 +38,7 @@ const About = () => {
                   className="hover:brightness-75 rounded-md transform duration-300 ease-in-out"
                 />
                 <p className="text-primary2 mt-2 text-[30px] font-bold ml-3 hover:text-primary1 transform duration-300 ease-in-out max-sm:text-lg">{blog.name}</p>
-                <p className="text-primary2 mt-2 text-[14px] ml-3 hover:text-primary3 transform duration-300 ease-in-out max-sm:hidden font-semibold">{blog.desc}</p>
+                <p className="text-primary2 mt-2 text-[14px] ml-3 hover:text-primary3 transform duration-300 ease-in-out max-sm:hidden">{blog.desc}</p>
               </a>
             ))}
           </div>
