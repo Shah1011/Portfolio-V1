@@ -70,8 +70,8 @@ const Hero = () => {
 
         <AnimatedSection delay={1.6} >
             <SpecialButton
-              href="https://marketplace.visualstudio.com/items?itemName=ShahAbulKalam.flavia-dark" 
-              buttonText="Checkout my code theme!"
+              href="https://iamshah.hashnode.dev/" 
+              buttonText="Checkout my writings!"
               className="mt-[2rem]"
               padding='px-4 py-5'
             />
