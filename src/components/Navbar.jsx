@@ -5,7 +5,7 @@ import React from 'react'
 import menu from "@/components/icons/menu.png"
 import close from "@/components/icons/close.svg"
 import { useEffect, useState } from 'react'
-import pdfPath from '../../public/assets/Resume.pdf'
+import pdfPath from '../../public/assets/Shah-Resume.pdf'
 import Image from 'next/image';
 import { motion, useAnimationControls } from 'framer-motion';
 import { enablePageScroll, disablePageScroll } from 'scroll-lock';
