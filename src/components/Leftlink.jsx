@@ -23,7 +23,7 @@ export default function LeftLink() {
         <a href='https://www.instagram.com/danishhh1011/' target='_blank' className='hover:-translate-y-2 transition-transform duration-300 ease-in-out'>
             <Image src={instagram} alt='Instagram Icon'/>
         </a>
-        <a href='https://www.linkedin.com/in/shah-abul-kalam-a-k-90a52324a/' target='_blank' className='hover:-translate-y-2 transition-transform duration-300 ease-in-out'>
+        <a href='https://www.linkedin.com/in/shah-abul-kalam/' target='_blank' className='hover:-translate-y-2 transition-transform duration-300 ease-in-out'>
             <Image src={linkedin} alt='linkedin'/>
         </a>
         <a href="https://iamshah.hashnode.dev/" target="_blank" className='hover:-translate-y-2 transition-transform duration-300 ease-in-out'>
