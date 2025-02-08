@@ -1,19 +1,19 @@
 [
     {
        "name":"Docker for Dummies",
-       "image": "https://i.ibb.co/S5Pf67z/docker-for-dummies.png" ,
+       "image": "/assets/blogs/docker-for-dummies.png" ,
        "link": "https://iamshah.hashnode.dev/docker-for-dummies",
        "desc": "This blog will help you understand Docker concepts in detail, along with its useful commands. It's not just an overview but a beginner's guide on how to use Docker. To put it in simple words - Docker is a tool that lets you bundle an application along..."
     },          
     {
         "name":"Nginx Explained",
-        "image": "https://i.ibb.co/9qg2gSY/NGINX.png" ,
+        "image": "/assets/blogs/NGINX.png" ,
         "link": "https://iamshah.hashnode.dev/nginx-explained"
         
     },
     {
         "name":"Blockchain-Powered Ride Booking: Introducing Crypto Commute 🚗",
-        "image": "https://i.ibb.co/M2wfM07/Crypto.png" ,
+        "image": "/assets/blogs/Crypto.png" ,
         "link": "https://iamshah.hashnode.dev/crypto-commute"
     }
 ]
