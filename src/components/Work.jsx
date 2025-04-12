@@ -101,7 +101,7 @@ const Work = () => {
               <a href='https://github.com/Shah1011/HomeProtein' target='_blank'>
                 <Image src={github} alt='github' />
               </a>
-              <a href='https://homeprotein.in' target='_blank'>
+              <a href='https://homeprotein.vercel.app' target='_blank'>
                 <Image src={externallink} alt='externallink' />
               </a>
             </div>
@@ -208,12 +208,12 @@ const Work = () => {
         <div className="flex flex-col justify-between items-center  mt-2 bg-[url('../../public/assets/bg/homeprotein.png')] bg-cover bg-center rounded-sm shadow-2xl">
 
           <div className='p-6' >
-            <a href='https://homeprotein.in' target='_blank'>
+            <a href='https://homeprotein.vercel.app' target='_blank'>
               <p className='flex  text-primary1 font-mono text-sm'>Featured Project</p>
               <h1 className='flex  text-primary2 font-bold text-[28px]'>HomeProtein</h1>
             </a>
 
-            <a href='https://homeprotein.in' target='_blank' className='mt-4'>
+            <a href='https://homeprotein.vercel.app' target='_blank' className='mt-4'>
               <p className='text-primary3 '>
                 Designed and developed the HomeProtein website for a startup using Next.js, React, Tailwind CSS, and JavaScript. The website promotes the startup's meal subscription service, featuring protein-rich dishes crafted by dedicated moms in their kitchens.
               </p>
