@@ -39,12 +39,12 @@ const Hero = () => {
 
         <AnimatedSection delay={1.2}>
           <div className='text-primary2 font-pop font-[650] text-[62px] leading-snug max-lg:text-[52px] max-sm:text-[32px]'>
-            <h1>Shah Abul Kalam.</h1>
+            <h1>Shah Abulkalam.</h1>
             <TypeAnimation
               sequence={[
                 'I build things for the Web.',
                 2000,
-                'I am a web3 enthusiast.',
+                'I am an aspiring Cloud Architect',
                 2000,
                 'And I like coffee ;)',
                 2000,
@@ -60,9 +60,9 @@ const Hero = () => {
         <AnimatedSection delay={1.4}>
           <p className='text-primary3 w-[33rem] max-sm:w-[17rem] font-normal text-[16px] mt-6 max-sm:mt-2 max-sm:text-[18px]'>
             I am a computer science engineering student, specializing in building digital experiences (and occasionally designing).
-            Currently interning and working on freelance projects at{' '}
-            <a href='https://duolearn.tech' target='_blank' className='text-primary1 '>
-              <span>Duolearn</span>
+            Currently working as an MTS intern at {' '}
+            <a href='https://www.netapp.com/' target='_blank' className='text-primary1 '>
+              <span>NetApp</span>
             </a>
             .
           </p>

@@ -130,7 +130,7 @@ const closeMenu = () => {
 
                 <MotionDiv delay={0.5}>
                     <SpecialButton
-                        href="https://drive.google.com/file/d/152tF-c-1d_pfSy-OOCF2DXIfo8h1fPp_/view?usp=sharing"
+                        href={pdfPath}
                         buttonText="Resume"
                         padding='px-3.5 py-2.5'
                         className="text-[14px]"
@@ -139,7 +139,7 @@ const closeMenu = () => {
 
             </div>
         </div>
-        <div className="flex items-center justify-between  md:hidden">
+        <div className="flex items-center justify-between md:hidden">
                 <div>
                     <a href='/' className="relative inline-block text-md group">            
                         <span className="relative z-10 block px-4 py-3 overflow-hidden font-medium leading-tight text-primary1 transition-colors duration-300 ease-out border-[1px] border-primary1 rounded-lg group-hover:text-primary2">
