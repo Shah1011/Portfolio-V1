@@ -42,9 +42,9 @@ const Hero = () => {
             <h1>Shah Abulkalam.</h1>
             <TypeAnimation
               sequence={[
-                'I build things for the Web.',
+                'I build things for the Web',
                 2000,
-                'I am an aspiring Cloud Architect',
+                "I'm an aspiring Cloud Architect",
                 2000,
                 'And I like coffee ;)',
                 2000,
