@@ -35,13 +35,13 @@ const About = () => {
         <div className='flex  mt-6 gap-[5rem] text-[14px] text-primary3 font-mono ml-4'>
             <ul className='leading-6 list-square'>
                 <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
+                <li>Python</li>
+                <li>Go</li>
             </ul>
             <ul className='leading-6 list-square'>
                 <li>TypeScript</li>
-                <li>React Native</li>
-                <li>Gatsby</li>
+                <li>AWS</li>
+                <li>DevOps</li>
             </ul>
         </div>
       </div>
