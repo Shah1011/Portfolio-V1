@@ -25,9 +25,9 @@ const About = () => {
         </div>
         
         <div className='text-primary3 mt-8 font-normal text-[17px]'>
-          <p>Hi! My name is Shah Abul Kalam and I enjoy creating things that live on the internet. My interest in web development started back in 2016 when I decided to try making a website using Wix — turns out hacking together a custom webpage taught me a lot about how the websites are built.</p>
+          <p>Hi! My name is Shah Abulkalam and I enjoy creating things that live on the internet. My interest in web development started back in 2016 when I decided to try making a website using Wix — turns out hacking together a custom webpage taught me a lot about how the websites are built.</p>
           <br />
-          <p>Fast-forward to today, I’ve had the privilege of working at multiple start-ups. My main focus these days is building accessible, digital experiences at <a href='https://duolearn.tech' target='_blank' className='text-primary1 '><span>Duolearn</span></a>.</p>
+          <p>Fast-forward to today, I’ve had the privilege of working at multiple start-ups. My main focus these days is automating tasks at <a href='https://netapp.com/' target='_blank' className='text-primary1 '><span>NetApp</span></a>.</p>
           <br />
           <p>Here are a few technologies I’ve been working with recently:</p>
         </div>
