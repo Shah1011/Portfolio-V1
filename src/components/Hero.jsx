@@ -60,9 +60,9 @@ const Hero = () => {
         <AnimatedSection delay={1.4}>
           <p className='text-primary3 w-[33rem] max-sm:w-[17rem] font-normal text-[16px] mt-6 max-sm:mt-2 max-sm:text-[18px]'>
             I am a computer science engineering student, specializing in building digital experiences (and occasionally designing).
-            Currently working as an MTS intern at {' '}
-            <a href='https://www.netapp.com/' target='_blank' className='text-primary1 '>
-              <span>NetApp</span>
+            Currently working as a Creative designer at {' '}
+            <a href='https://www.duolearn.tech/' target='_blank' className='text-primary1 '>
+              <span>Duolearn</span>
             </a>
             .
           </p>
