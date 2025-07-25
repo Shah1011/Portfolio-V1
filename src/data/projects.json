@@ -1,44 +1,44 @@
 [
-    {
-        "name": "Crypto Commute",
-        "description": "A final year engineering project, It is a decentralized blockchain cab-booking platform that allows users to book cabs online. Built on web3 technologies like Alchemy, hardhat, web3.js on the ethereum platform.",
-        "technologies": ["MERN Stack", "Web3", "Solidity"],
-        "githubLink": "https://github.com/Shah1011/CryptoCommute",
-        "externalLink": "https://iamshah.hashnode.dev/crypto-commute"
-    },
-    {
-        "name": "Fintech Leonidas",
-        "description": "A banking web app built with Next.js utilizing SSR and dynamic rendering for scalability along with Appwrite & Plaid API. The app provides a secure platform for real-time financial insights and transactions.",
-        "technologies": ["NextJS", "TypeScript", "Appwrite"],
-        "githubLink": "https://github.com/DanishQ1011/fintech-leonidas",
-        "externalLink": "https://fintech-leonidas.vercel.app/"
-    },
-    {
-        "name": "Brainwave",
-        "description": "For a hands-on learning experience in Tailwind CSS and mobile responsiveness, I built this mini project - Learnt from the popular YouTube channel JSM.",
-        "technologies": ["JavaScript", "React", "Tailwind CSS"],
-        "githubLink": "https://github.com/Shah1011/Brainwave",
-        "externalLink": "https://brainwave-shah.netlify.app"
-    },
-    {
-        "name": "DevQuery",
-        "description": "This is a stack overflow like website built with MERN stack. It is a full-stack project with authentication, authorization, and CRUD operations. It is a responsive website with a dark theme aesthetic. ",
-        "technologies": ["MongoDB", "React", "Nodejs"],
-        "githubLink": "https://github.com/Shah1011/DevQuery",
-        "externalLink": "https://github.com/Shah1011/DevQuery"
-    },
-    {
-      "name": "Pseudo Nike Website",
-      "description": "A Nike landing page clone built with React.js and Tailwind CSS, featuring minimalist design and responsive layouts. It highlights skills in layout replication and styling for a smooth user experience.",
-      "technologies": ["JavaScript", "ReactJs", "Tailwind CSS"],
-      "githubLink": "https://github.com/Shah1011/Nike-Site-Cloned",
-      "externalLink": "https://nike-sh.netlify.app/"
-    },
-    {
-        "name": "GPT-3 Webpage",
-        "description": "A fully responsive landing page built with React.js, showcasing UI/UX design principles. As one of my first React-based projects, it highlights component-based architecture & styling technique.",
-        "technologies": ["JavaScript", "React", "CSS"],
-        "githubLink": "https://github.com/Shah1011/Modern-UI-UX-Webpage-GPT3",
-        "externalLink": "https://gpt3-shah.netlify.app/"
-    }
+  {
+    "name": "Crypto Commute",
+    "description": "A final year engineering project, It is a decentralized blockchain cab-booking platform that allows users to book cabs online. Built on web3 technologies like Alchemy, hardhat, web3.js on the ethereum platform.",
+    "technologies": ["MERN Stack", "Web3", "Solidity"],
+    "githubLink": "https://github.com/Shah1011/CryptoCommute",
+    "externalLink": "https://iamshah.hashnode.dev/crypto-commute"
+  },
+  {
+    "name": "Fintech Leonidas",
+    "description": "A banking web app built with Next.js utilizing SSR and dynamic rendering for scalability along with Appwrite & Plaid API. The app provides a secure platform for real-time financial insights and transactions.",
+    "technologies": ["NextJS", "TypeScript", "Appwrite"],
+    "githubLink": "https://github.com/DanishQ1011/fintech-leonidas",
+    "externalLink": "https://fintech-leonidas.vercel.app/"
+  },
+  {
+    "name": "BSC Generator",
+    "description": "An open-source internal tool that visualizes company performance using the standard Balanced Scorecard Framework. Features comprehensive report generation and BRAG status indicators for performance tracking.",
+    "technologies": ["Python", "Django", "Postgresql"],
+    "githubLink": "https://github.com/Shah1011/BSC-Generator",
+    "externalLink": "https://github.com/Shah1011/BSC-Generator"
+  },
+  {
+    "name": "Brainwave",
+    "description": "For a hands-on learning experience in Tailwind CSS and mobile responsiveness, I built this mini project - Learnt from the popular YouTube channel JSM.",
+    "technologies": ["JavaScript", "React", "Tailwind CSS"],
+    "githubLink": "https://github.com/Shah1011/Brainwave",
+    "externalLink": "https://brainwave-shah.netlify.app"
+  },
+  {
+    "name": "DevQuery",
+    "description": "This is a stack overflow like website built with MERN stack. It is a full-stack project with authentication, authorization, and CRUD operations. It is a responsive website with a dark theme aesthetic. ",
+    "technologies": ["MongoDB", "React", "Nodejs"],
+    "githubLink": "https://github.com/Shah1011/DevQuery",
+    "externalLink": "https://github.com/Shah1011/DevQuery"
+  },
+  {
+    "name": "Pseudo Nike Website",
+    "description": "A Nike landing page clone built with React.js and Tailwind CSS, featuring minimalist design and responsive layouts. It highlights skills in layout replication and styling for a smooth user experience.",
+    "technologies": ["JavaScript", "ReactJs", "Tailwind CSS"],
+    "githubLink": "https://github.com/Shah1011/Nike-Site-Cloned",
+    "externalLink": "https://nike-sh.netlify.app/"
+  }
 ]
